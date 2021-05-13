@@ -89,8 +89,12 @@ html body{
 
 
 
-@media(max-width:700px) {
- 
-  
-  
+@media(max-width:560px) {
+
+   .navbar{
+    background-color: $primary-color;
+    padding: 1.3rem;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+  }
 }
