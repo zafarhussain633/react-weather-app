@@ -90,11 +90,25 @@ html body{
 
 
 @media(max-width:560px) {
-
+  .container {
    .navbar{
     background-color: $primary-color;
-    padding: 1.3rem;
-    font-size: 1.6rem;
-    font-family: sans-serif;
+    padding: 1.1rem;
+    font-size: 1.3rem;
+    font-family:sans-serif;
+  
+   }
+   .card {
+    input{
+     padding: 0.6rem;
+     font-size: 1rem;
+    }
+    .child-card{
+      margin: 1.5rem;
+    }
   }
+  
+  
+  }
+  
 }
