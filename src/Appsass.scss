@@ -1,0 +1,85 @@
+
+$primary-color: rgb(54, 163, 235);
+$secondary-color: white;
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html body{
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background:url("https://images.unsplash.com/photo-1579691099788-42394ae932d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"); 
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace
+}
+
+.container {
+  background-color: black;
+  opacity: 0.75;
+ .navbar{
+  background-color: $primary-color;
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+
+ }
+
+}
+
+.card{
+  margin-top: 1rem;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  input{
+   padding: 1rem;
+   width: 100%;
+   background-color: $secondary-color;
+   color: black;
+   font-size: 1.2rem;
+   font-weight: bold;
+   border-radius: 8px;
+  }
+  .child-card{
+    color: $secondary-color;
+    margin: 2rem;
+  }
+}
+
+
+.card-body{
+
+  border: 2px solid $primary-color;
+  margin: 20px;
+  color: $secondary-color;
+  font-size: 1.2rem;
+  padding: 1rem;
+  .city{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .temperature{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+  }
+
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 0.9rem;
+}
+
+@media(max-width:700px) {
+ 
+  
+  
+}
