@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Appsass.scss';
 import Navbar from './components/Navbar';
 import FetchWeather from './components/fetchWeather';
+import Footer from './components/Footer';
 
 // class components
 class App extends Component{
@@ -10,6 +11,7 @@ class App extends Component{
        <div className="container">
           <Navbar />
           <FetchWeather />
+          <Footer />
         </div>
      )
    }
